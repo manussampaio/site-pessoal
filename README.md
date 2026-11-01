@@ -1,30 +1,64 @@
-# Portfólio acadêmico
+# portfolio
 
-Site pessoal em HTML, CSS e JavaScript, pronto para o GitHub Pages.
+Site pessoal de Manuella Silva Sampaio, com a trajetória acadêmica, os projetos, os eventos e os sites desenvolvidos. Serve como portfólio para complementar o currículo.
 
-## Como personalizar
-1. Abra `index.html` e troque os textos de exemplo (Seu Nome, curso, instituição, atividades, projetos, eventos, sites, e-mail, GitHub e LinkedIn).
-2. Coloque suas imagens na pasta `img/`: `foto.jpg` (já incluída) e `site1.jpg`, `site2.jpg` (capturas dos sites). Se o arquivo não existir, o espaço fica reservado.
-3. Para mudar as cores, edite as variáveis no início de `css/style.css`.
-4. Para ver no computador, abra `index.html` no navegador.
+É um site estático, feito com HTML, CSS e JavaScript, e fica hospedado no [GitHub Pages](https://pages.github.com/).
 
-## Publicar no GitHub Pages
-1. Crie um repositório no GitHub chamado `portfolio` (ou `seu-usuario.github.io` para usar o endereço principal).
-2. No terminal, dentro da pasta do projeto:
-```bash
-git init
-git add .
-git commit -m "Primeira versão do portfólio"
-git branch -M main
-git remote add origin https://github.com/SEU-USUARIO/portfolio.git
-git push -u origin main
+## Requisitos
+
+- Um navegador atualizado
+- [Git](https://git-scm.com/), apenas para publicar as alterações
+- Conexão com a internet para carregar as fontes do Google Fonts
+
+## Como visualizar
+
+Não há nada para instalar nem executar. Basta abrir o arquivo `index.html` no navegador.
+
+Depois de publicado, o site fica em:
+
 ```
-3. No GitHub: **Settings > Pages > Build and deployment**. Em *Source*, escolha **Deploy from a branch**, branch **main**, pasta **/ (root)**, e salve.
-4. Em 1 a 2 minutos o site estará em `https://SEU-USUARIO.github.io/portfolio/`.
-
-## Atualizar depois
-```bash
-git add .
-git commit -m "Descreva a mudança"
-git push
+https://manussampaio.github.io/site-pessoal/
 ```
+
+## Estrutura do projeto
+
+```
+portfolio/
+├── img/
+│   ├── foto.jpg       # Foto da seção "Sobre mim"
+│   ├── site1.jpg      # Captura do site Once Upon a Broken Heart
+│   └── site2.jpg      # Captura do site Quase lá!
+├── index.html         # Conteúdo e estrutura da página
+├── style.css          # Cores, fontes e layout (inclui a versão para celular)
+├── main.js            # Menu no celular, destaque da seção atual e ano do rodapé
+├── .gitignore
+└── README.md
+```
+
+## Seções do site
+
+| Seção                | Conteúdo                                                              |
+| -------------------- | --------------------------------------------------------------------- |
+| Início               | Nome, curso, instituição e resumo do perfil                           |
+| Sobre mim            | Foto, dados pessoais e apresentação                                   |
+| Atividades acadêmicas | Linha do tempo com pesquisa, monitoria, estágio, aulas e cursos       |
+| Projetos             | Andaio e Chatbot Liz, com a minha participação em cada um             |
+| Feiras e eventos     | FECINOVA, FETEC MS e Olimpíada Brasileira de Informática, com premiação |
+| Sites desenvolvidos  | Capturas de tela, descrições e links dos sites                        |
+| Habilidades          | Tecnologias e idiomas                                                 |
+| Contato              | Currículo Lattes, LinkedIn, GitHub e e-mail                           |
+
+
+## Tecnologias
+
+| Tecnologia   | Uso                                              |
+| ------------ | ------------------------------------------------ |
+| HTML         | Estrutura e conteúdo das páginas                 |
+| CSS          | Visual e adaptação para celular                  |
+| JavaScript   | Menu do celular e destaque da seção no menu      |
+| Google Fonts | Fontes DM Serif Display e Nunito Sans            |
+| Git e GitHub | Controle de versão e hospedagem com GitHub Pages |
+
+## Feito por
+
+- Manuella Sampaio | [@manussampaio](https://github.com/manussampaio)
