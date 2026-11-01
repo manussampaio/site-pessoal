@@ -14,7 +14,7 @@ Site pessoal de Manuella Silva Sampaio, com a trajetória acadêmica, os projeto
 
 Não há nada para instalar nem executar. Basta abrir o arquivo `index.html` no navegador.
 
-Depois de publicado, o site fica em:
+O site publicado fica em:
 
 ```
 https://manussampaio.github.io/site-pessoal/
